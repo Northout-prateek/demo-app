@@ -10,5 +10,4 @@ RUN npm install --production
 
 RUN npm install -g pm2
 
-
 CMD ["pm2-runtime", "server.js"]
