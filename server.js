@@ -11,6 +11,10 @@ app.get('/api/v1/test', (request, response, next) => {
     response.send({ success: true });
 });
 
+app.get('/api/v1/test2', (request, response, next) => {
+    response.send({ success: "Shashank" });
+});
+
 server.listen(PORT, () => {
     console.log(`Server started at port: ${PORT}`);
 });
