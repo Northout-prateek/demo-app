@@ -9,5 +9,5 @@ COPY . .
 RUN npm install --production
 
 RUN npm install -g pm2
-//run file
+
 CMD ["pm2-runtime", "server.js"]
